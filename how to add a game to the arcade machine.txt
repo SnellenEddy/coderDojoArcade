@@ -1,0 +1,15 @@
+1) in scratch, download your project as a .SB2 file
+2) go to http://junebeetle.github.io/converter/online/
+3) use the following parameters:
+	1) select full screen 
+	2) select automatically start 
+	3) all the rest deselected (except if you need turbo mode)
+	4) put width on 960, height on 720
+4) click convert to SWF
+5) save the .swf-file in the "games" directory (do not overwrite anything!)
+6) add your game's data to the gamelist.js-file in the "html/js" directory
+
+
+
+
+		
