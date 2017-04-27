@@ -1,0 +1,43 @@
+body {
+	background-color: black;
+	background-image: url("../images/CDRoundelWithTextBelow-DkBg.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #DDDDDD;
+}
+
+a:link {
+	text-decoration: none;
+	color:inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+
+.flashGameContainer {margin: auto; text-align:center;}
+
+.flashGame {margin: auto;}
+
+.menu { width: 80%; margin: auto; padding-top: 10%}
+.menu .menuItem { opacity: 0.9; height:30px;width:100%;border-width:0px;border-style:solid; margin: 5px auto 5px auto; padding:5px 20px 5px 20px; border-color: #555555; border-radius: 5px;}
+.menu .menuItem.selected { height:120px; background-color: #FFFF00; border-width:5px; padding:0 15px 0 15px; color:#000000;border-color:#D5B60A}
+.menu .menuItem.selected p { display:block;}
+
+.menu .menuItem.previous { display:block; background-color: #DD2222;}
+.menu .menuItem.previous p { display:none;}
+.menu .menuItem.previous.gradient { display:block; background-image: linear-gradient(black, #DD2222);}
+
+.menu .menuItem.next { display:block; background-color: #22DD22;;}
+.menu .menuItem.next.gradient { display:block; background-image: linear-gradient(#22DD22, black); }
+.menu .menuItem.next p { display:none;}
+
+.menu .menuItem.hidden { display:none;}
+
+.menu .menuItem a h1 { text-align:center; text-transform:uppercase; color: #; font-size: 1.2em; margin:2px; font-weight:bold; font-family: sans-serif;letter-spacing:2px;}
+.menu .menuItem a p.description { text-align:justify;letter-spacing:2px; }
+.menu .menuItem a p.author { text-align:right;font-size: .5em;}
+
+
+
