@@ -179,8 +179,8 @@ function reactToKeyPress(evt) {
     else if ((evt.keyCode == 70)||(evt.keyCode == 37)) {
     	selectNextMenuItem (); //green buttons: F or LEFTARROW
     }    
-  } else if (evt.keyCode == 65) {
-    unloadGame(); //reset button. To be mapped to the "A" on the makey makey.
+  } else if (evt.keyCode == 81) { //65 = A, 81 = Q
+    unloadGame(); //reset button. To be mapped to the "A" on the makey makey (which will be a Q with Belgian keyboard layout activated).
   }
 }
 
