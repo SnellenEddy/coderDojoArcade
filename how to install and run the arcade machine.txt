@@ -1,8 +1,8 @@
 1) install a HTTP server on the arcade machine (e.g. https://www.nginx.com/)
 2) copy the entire contents of the github repository into the root folder of the http server (for nginx, the default is the html folder)
-3) make sure nginx starts automatically as a server on the machine. For windows, I did this by using regedit to add a new string value to HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+3) make sure nginx starts automatically as a server on the machine. Add a shortcut to NGINX in C:\Users\YourUserName\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup.
 4) install chrome browser on the arcade machine
-5) ensure chrome starts automatically on the arcade machine. Add a shortcut to C:\Users\YourUserName\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup.
+5) ensure chrome starts automatically on the arcade machine. Add a shortcut to Chrome in  C:\Users\YourUserName\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup.
 6) edit the chrome shortcut. Add "--kiosk 127.0.0.1" (fullscreen & connect to local host) to the command line
 
 Reboot.
